@@ -1,0 +1,157 @@
+body{
+font-family:arial;
+}
+.navbar{
+position:fixed;
+top:0px;
+left:0px;
+width:300px;
+height:100%;
+border-right:1px solid grey;
+}
+.title{
+font-family:Arial;
+color:black;
+background-color:Yellow;
+
+font-size:29px;
+text-align:center;
+font-weight:400;
+line-height:50px;
+padding-top:10px;
+padding-bottom:0px;
+margin-top:0px;
+margin-bottom:0px;
+}
+.navbar ul{
+height:88%;
+padding:0;
+font-size:20px;
+color:grey;
+overflow-x:hidden;
+overflow-y:auto;
+}
+.navbar li{
+list-style:none;
+width:100%;
+border-top:2px solid gray;
+}
+.navbar a{
+font-family:arial;
+display:block;
+padding:10px;
+color: gray;
+text-decoration:none;
+}
+.navbar a:hover{
+font-style:italic;
+color:black;
+background-color:yellow;
+}
+.data{
+position:absolute;
+margin-left:310px;
+padding-top:20px;
+padding-left:20px;
+padding-right:10px;
+}
+header{
+font-size:30px;
+font-weigth:400;
+font-family:arial;
+}
+p, article{
+display:block;
+padding-left:10px;
+line-height:2;
+font-weigth:400;
+margin:10px;
+}
+.data ul{
+padding-left:80px;
+line-height:2;
+}
+code{
+margin-top:20px;
+margin-bottom:20px;
+padding: 20px;
+background-color: #F7F7F7;
+display: block;
+line-height: 2;
+}
+@media(min-device-width:300px) and (max-device-width:815px){
+.navbar{
+    position: inherit;
+    width: 100%;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-bottom: 10px solid black;
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+    }
+.data{
+    margin-left: auto;
+    position: absolute;
+}
+.tittle{
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+}
+.tittle::before{
+ content: "JS DOCUMNTATION";
+ margin-left:auto;
+ margin-right:auto;
+}
+.title{
+display:none;
+}
+.navbar ul{
+width:100%;
+}
+.navbar li{
+font-size:17px;
+}
+}
+@media(min-width:300px) and (max-width:815px){
+.navbar{
+    position: inherit;
+    width: 100%;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-bottom: 10px solid black;
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+    }
+.data{
+    margin-left: auto;
+    position: absolute;
+}
+.tittle{
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+}
+.tittle::before{
+ content: "JS DOCUMNTATION";
+ margin-left:auto;
+ margin-right:auto;
+}
+.title{
+display:none;
+}
+.navbar ul{
+width:100%;
+}
+.navbar li{
+font-size:17px;
+}
+}
