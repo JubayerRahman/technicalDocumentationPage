@@ -125,12 +125,11 @@ font-size:17px;
     overflow-x: hidden;
     overflow-y: auto;
     border-bottom: 10px solid black;
-    margin-left: 20px;
+    margin-left: 10px;
     border-left: 1px solid black;
     border-top: 1px solid black;
     right: 0;
     padding-bottom: 0;
-    justify-content: center;
     }
 .data{
     margin-left: auto;
